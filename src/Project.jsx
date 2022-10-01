@@ -20,9 +20,9 @@ function Project({
         </a>
 
         <div className="w-1/2 h-full flex flex-col items-center justify-between   md:w-full md:h-1/2">
-          <p className="text-3xl text-black font-semibold">{p_name}</p>
+          <p className="text-3xl text-black text-center font-semibold">{p_name}</p>
           <ul className="text-black text-xl flex flex-col items-center space-y-1   md:text-2xl">
-            {langs.map(lang => <li>{lang}</li>)}
+            {langs.map(lang => <li key={lang}>{lang}</li>)}
           </ul>
           <a href={repo} target="_blank" className="w-28 h-12 bg-tertiary border border-border shadow-md rounded-xl flex justify-center items-center   hover:bg-primary hover:border-tertiary hover:scale-110 hover:text-white   transition-all duration-300 ease-in-out   md:w-full md:h-12 md:text-lg md:hover:scale-105">View code</a>
         </div>

@@ -34,6 +34,15 @@ function ProjectList() {
           page="https://geras4323.github.io/frontend-js/"
           backgr="bg-sale_sm"
         />
+
+        <Project
+          p_name="iOS Calculator"
+          description="Quick operations save time"
+          langs={["React JS", "Tailwind CSS"]}
+          repo="https://github.com/Geras4323/ios-calculator"
+          page="https://ios-calculator-geras4323.vercel.app/"
+          backgr="bg-calculator_sm"
+        />
       </section>
 
     </div>
