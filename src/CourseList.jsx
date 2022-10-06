@@ -10,12 +10,17 @@ function CourseList() {
 
         <section className="w-full h-auto space-y-4   md:grid md:grid-cols-2 md:space-y-0 md:gap-4   lg:grid lg:grid-cols-3 lg:space-y-0">
           <Course
+            name="NEXT.js"
+            image="https://static.platzi.com/media/achievements/badge-nextjs-2259fc68-f86b-486e-bc09-95311a887985.png"
+          />
+
+          <Course
             name="Tailwind CSS"
             image="https://static.platzi.com/media/achievements/piezas-basico-tailwind_badge-e301d7b7-4227-42ff-8aa9-0e1ecbf4b4e1.png"
           />
 
           <Course
-            name="React JS Introduction"
+            name="React.js"
             image="https://static.platzi.com/media/achievements/badge-react-2018-0a41bdc5-e874-45c9-ac67-98294c898da4.png"
           />
 

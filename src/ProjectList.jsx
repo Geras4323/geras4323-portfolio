@@ -29,9 +29,9 @@ function ProjectList() {
         <Project
           p_name="Yard Sale"
           description="Get yourself a present!"
-          langs={["HTML", "CSS", "JavaScript"]}
-          repo="https://github.com/Geras4323/frontend-js"
-          page="https://geras4323.github.io/frontend-js/"
+          langs={["NEXT.js", "Tailwind CSS"]}
+          repo="https://github.com/Geras4323/web-shop-next"
+          page="https://web-shop-next-geras4323.vercel.app/"
           backgr="bg-sale_sm"
         />
 
