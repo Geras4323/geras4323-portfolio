@@ -12,6 +12,7 @@ module.exports = {
         'task_sm': "url('./assets/tasklist_mobile.jpg')",
         'sale_sm': "url('./assets/sale_mobile.jpg')",
         'calculator_sm': "url('./assets/ios_calculator.jpg')",
+        'dashboard_sm': "url('./assets/dashboard.jpg')",
       },
       backgroundColor: theme => ({
         ...theme('colors'),

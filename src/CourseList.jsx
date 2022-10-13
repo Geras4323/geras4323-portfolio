@@ -11,7 +11,7 @@ function CourseList() {
         <section className="w-full h-auto space-y-4   md:grid md:grid-cols-2 md:space-y-0 md:gap-4   lg:grid lg:grid-cols-3 lg:space-y-0">
           <Course
             name="NEXT.js"
-            image="https://static.platzi.com/media/achievements/badge-nextjs-2259fc68-f86b-486e-bc09-95311a887985.png"
+            image="https://static.platzi.com/media/achievements/piezas-profesional-nextjs_badge-c9a806c6-e240-45da-81da-c206b0611e84.png"
           />
 
           <Course

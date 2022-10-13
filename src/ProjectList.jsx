@@ -27,6 +27,15 @@ function ProjectList() {
         />
 
         <Project
+          p_name="iOS Calculator"
+          description="Quick operations save time"
+          langs={["React JS", "Tailwind CSS"]}
+          repo="https://github.com/Geras4323/ios-calculator"
+          page="https://ios-calculator-geras4323.vercel.app/"
+          backgr="bg-calculator_sm"
+        />
+
+        <Project
           p_name="Yard Sale"
           description="Get yourself a present!"
           langs={["NEXT.js", "Tailwind CSS"]}
@@ -36,12 +45,12 @@ function ProjectList() {
         />
 
         <Project
-          p_name="iOS Calculator"
-          description="Quick operations save time"
-          langs={["React JS", "Tailwind CSS"]}
-          repo="https://github.com/Geras4323/ios-calculator"
-          page="https://ios-calculator-geras4323.vercel.app/"
-          backgr="bg-calculator_sm"
+          p_name="Product Dashboard"
+          description="Add, edit and remove products"
+          langs={["NEXT.js", "Tailwind CSS", "- Tailwind UI -"]}
+          repo="https://github.com/Geras4323/next-dashboard"
+          page="https://next-dashboard-geras4323.vercel.app/"
+          backgr="bg-dashboard_sm"
         />
       </section>
 
