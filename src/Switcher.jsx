@@ -11,11 +11,9 @@ function Switcher() {
     // root.classList.toggle('dark');
 
     if (root.classList.contains('dark')) {
-      console.log('dark');
       root.classList.remove('bg-white');
       root.classList.add('bg-[#111926]');
     } else {
-      console.log('light');
       root.classList.remove('bg-[#111926]');
       root.classList.add('bg-white');
     }
