@@ -7,7 +7,7 @@ function ProjectList() {
     <div id="projects" className="w-auto h-auto pt-8 mb-10 mx-4">
       <p className="text-2xl text-primary text-center font-bold   md:text-3xl">Take a look at some projects I've been working on.</p>
 
-      <section className="my-4 flex flex-col items-center space-y-4   md:h-auto md:flex-row md:space-y-0 md:space-x-6 md:mt-6">
+      <section className="my-4 grid grid-cols-1 items-center gap-4   md:h-auto md:grid-cols-3 md:mt-6   lg:grid-cols-4   2xl:grid-cols-5">
         <Project
           p_name="YouTravel"
           description="Feeling like traveling?"
@@ -51,6 +51,15 @@ function ProjectList() {
           repo="https://github.com/Geras4323/next-dashboard"
           page="https://next-dashboard-geras4323.vercel.app/"
           backgr="bg-dashboard_sm"
+        />
+
+        <Project
+          p_name="Movies & TV"
+          description="No plans for this weekend?"
+          langs={["NEXT.js", "Tailwind CSS", "- TheMovieDB -"]}
+          repo="https://github.com/Geras4323/movies-api"
+          page="https://movies-api-geras4323.vercel.app/"
+          backgr="bg-movies_sm"
         />
       </section>
 

@@ -25,6 +25,11 @@ function CourseList() {
           />
 
           <Course
+            name="API Consumption"
+            image="https://static.platzi.com/media/achievements/image-0ca92613-cd68-4147-993c-751978c2a554.png"
+          />
+
+          <Course
             name="JavaScript Asynchronism"
             image="https://static.platzi.com/media/achievements/badge-asincro-js-9f17b092-47d0-4c8a-a59d-67714aa18db3.png"
           />

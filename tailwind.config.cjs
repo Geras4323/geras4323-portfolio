@@ -13,6 +13,7 @@ module.exports = {
         'sale_sm': "url('./assets/sale_mobile.jpg')",
         'calculator_sm': "url('./assets/ios_calculator.jpg')",
         'dashboard_sm': "url('./assets/dashboard.jpg')",
+        'movies_sm': "url('./assets/movies.jpg')",
       },
       backgroundColor: theme => ({
         ...theme('colors'),
