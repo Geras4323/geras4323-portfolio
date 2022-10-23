@@ -2,10 +2,10 @@ import React from 'react';
 
 function Personal() {
   return (
-    <div className="w-full h-64 mt-8   bg-gradient-to-b from-white to-gray-400   lg:h-44">
+    <div className="w-full h-64 mt-8   bg-gradient-to-b from-white to-gray-400   lg:h-44   dark:from-[#111926] dark:to-slate-600">
       <section className="w-full h-full text-primary flex flex-col justify-around items-center   lg:flex-row lg:justify-evenly">
 
-        <p className="text-xl font-extrabold   lg:text-2xl">Getting better every day</p>
+        <p className="text-xl font-extrabold   lg:text-2xl   dark:text-gray-200">Getting better every day</p>
 
         <section className="w-full h-12 flex flex-row justify-center space-x-8   lg:h-14 lg:w-64">
           <a href="https://github.com/Geras4323">
@@ -18,7 +18,7 @@ function Personal() {
           </a>
         </section>
 
-        <div className="flex flex-col items-center space-y-3">
+        <div className="flex flex-col items-center space-y-3   dark:text-gray-200">
           <span className="text-xl font-semibold   lg:text-2xl">Made with</span>
           <ul className="h-auto text-md flex flex-row space-x-6   lg:text-lg lg:font-bold">
             <li>

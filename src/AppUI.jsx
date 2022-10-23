@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { NavBar } from './NavBar';
+import { Switcher } from './Switcher';
 import { Presentation } from './Presentation';
 import { ProjectList } from './ProjectList';
 import { CourseList } from './CourseList';
@@ -11,7 +11,7 @@ function AppUI() {
   return (
     <React.Fragment>
 
-      {/* <NavBar /> */}
+      <Switcher />
 
       <Presentation />
 

@@ -5,7 +5,7 @@ import { Project } from "./Project";
 function ProjectList() {
   return (
     <div id="projects" className="w-auto h-auto pt-8 mb-10 mx-4">
-      <p className="text-2xl text-primary text-center font-bold   md:text-3xl">Take a look at some projects I've been working on.</p>
+      <p className="text-2xl text-primary text-center font-bold   md:text-3xl   dark:text-gray-100">Take a look at some projects I've been working on.</p>
 
       <section className="my-4 grid grid-cols-1 items-center gap-4   md:h-auto md:grid-cols-3 md:mt-6   lg:grid-cols-4   2xl:grid-cols-5">
         <Project

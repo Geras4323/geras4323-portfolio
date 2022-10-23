@@ -5,7 +5,7 @@ import { Course } from './Course';
 function CourseList() {
   return (
     <div id="courses" className="w-auto h-auto    bg-hero_bg">
-      <div className="w-auto h-auto py-8 px-4 flex flex-col items-center space-y-8 bg-gradient-to-t from-white to-transparent">
+      <div className="w-auto h-auto py-8 px-4 flex flex-col items-center space-y-8 bg-gradient-to-b from-transparent to-white   dark:to-[#111926]">
         <p className="text-2xl text-white text-center font-bold   lg:text-3xl">Here are some of the online courses I took.</p>
 
         <section className="w-full h-auto space-y-4   md:grid md:grid-cols-2 md:space-y-0 md:gap-4   lg:grid lg:grid-cols-3 lg:space-y-0">
@@ -50,7 +50,7 @@ function CourseList() {
           />
         </section>
 
-        <a href="https://platzi.com/p/german432/" target="_blank" className="w-4/5 h-14 text-black text-base font-extrabold flex justify-center items-center bg-transparent rounded-full border-2 border-primary shadow-md   hover:bg-primary hover:scale-105 hover:text-lg hover:text-white   transition-all duration-300 ease-in-out   md:w-3/5 md:text-lg md:hover:text-xl   lg:w-2/5">See more on Platzi</a>
+        <a href="https://platzi.com/p/german432/" target="_blank" className="w-4/5 h-14 text-black text-base font-extrabold flex justify-center items-center bg-transparent rounded-full border-2 border-primary shadow-md   hover:bg-primary hover:scale-105 hover:text-lg hover:text-white   transition-all duration-300 ease-in-out   md:w-3/5 md:text-lg md:hover:text-xl   lg:w-2/5   dark:border-gray-600 dark:text-white dark:hover:bg-slate-800">See more on Platzi</a>
       </div>
     </div>
   );
