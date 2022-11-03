@@ -26,7 +26,7 @@ function CourseList() {
 
           <Course
             name="API Consumption"
-            image="https://static.platzi.com/media/achievements/image-0ca92613-cd68-4147-993c-751978c2a554.png"
+            image="https://static.platzi.com/media/achievements/curso-profesional-consumo-api-rest-javascript_badge-842a9d5d-8995-48e7-8582-73b1890.png"
           />
 
           <Course
