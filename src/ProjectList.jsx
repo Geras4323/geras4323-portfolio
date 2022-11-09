@@ -14,7 +14,7 @@ function ProjectList() {
           langs={["HTML", "Tailwind CSS"]}
           repo="https://github.com/Geras4323/tailwind-travel-site"
           page="https://geras4323.github.io/tailwind-travel-site/"
-          backgr="bg-travel_sm"
+          backgr="bg-travel"
         />
 
         <Project
@@ -23,7 +23,7 @@ function ProjectList() {
           langs={["React JS", "CSS"]}
           repo="https://github.com/Geras4323/task-list-react/tree/master"
           page="https://geras4323.github.io/task-list-react/"
-          backgr="bg-task_sm"
+          backgr="bg-task"
         />
 
         <Project
@@ -32,7 +32,7 @@ function ProjectList() {
           langs={["React JS", "Tailwind CSS"]}
           repo="https://github.com/Geras4323/ios-calculator"
           page="https://ios-calculator-geras4323.vercel.app/"
-          backgr="bg-calculator_sm"
+          backgr="bg-calculator"
         />
 
         <Project
@@ -41,7 +41,7 @@ function ProjectList() {
           langs={["NEXT.js", "Tailwind CSS"]}
           repo="https://github.com/Geras4323/web-shop-next"
           page="https://web-shop-next-geras4323.vercel.app/"
-          backgr="bg-sale_sm"
+          backgr="bg-sale"
         />
 
         <Project
@@ -50,16 +50,25 @@ function ProjectList() {
           langs={["NEXT.js", "Tailwind CSS", "- Tailwind UI -"]}
           repo="https://github.com/Geras4323/next-dashboard"
           page="https://next-dashboard-geras4323.vercel.app/"
-          backgr="bg-dashboard_sm"
+          backgr="bg-dashboard"
         />
 
         <Project
           p_name="Movies & TV"
           description="No plans for this weekend?"
-          langs={["NEXT.js", "Tailwind CSS", "- TheMovieDB -"]}
+          langs={["NEXT.js", "Tailwind CSS", "- TheMovieDB API -"]}
           repo="https://github.com/Geras4323/movies-api"
           page="https://movies-api-geras4323.vercel.app/"
-          backgr="bg-movies_sm"
+          backgr="bg-movies"
+        />
+
+        <Project
+          p_name="Repository Filter"
+          description="Too many repositories? Filter them!"
+          langs={["React.js", "CSS", "- GitHub API -"]}
+          repo="https://github.com/Geras4323/gh-search-react"
+          page="https://gh-search-react-geras4323.vercel.app/"
+          backgr="bg-ghsearch"
         />
       </section>
 

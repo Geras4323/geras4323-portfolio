@@ -9,12 +9,13 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero_bg': "url('./assets/hero_bg.jpg')",
-        'travel_sm': "url('./assets/travel_mobile.jpg')",
-        'task_sm': "url('./assets/tasklist_mobile.jpg')",
-        'sale_sm': "url('./assets/sale_mobile.jpg')",
-        'calculator_sm': "url('./assets/ios_calculator.jpg')",
-        'dashboard_sm': "url('./assets/dashboard.jpg')",
-        'movies_sm': "url('./assets/movies.jpg')",
+        'travel': "url('./assets/travel_mobile.jpg')",
+        'task': "url('./assets/tasklist_mobile.jpg')",
+        'sale': "url('./assets/sale_mobile.jpg')",
+        'calculator': "url('./assets/ios_calculator.jpg')",
+        'dashboard': "url('./assets/dashboard.jpg')",
+        'movies': "url('./assets/movies.jpg')",
+        'ghsearch': "url('./assets/gh_search.jpg')",
       },
       backgroundColor: theme => ({
         ...theme('colors'),
