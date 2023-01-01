@@ -70,6 +70,15 @@ function ProjectList() {
           page="https://gh-search-react-geras4323.vercel.app/"
           backgr="bg-ghsearch"
         />
+
+        <Project
+          p_name="Database API"
+          description="The first step to owning a good ecommerce"
+          langs={["NEXT.js", "CSS", "Tailwind CSS"]}
+          repo="https://github.com/Geras4323/web-shop-nodeExpress"
+          page="https://api-documentation-geras4323.vercel.app/"
+          backgr="bg-apidocs"
+        />
       </section>
 
     </div>

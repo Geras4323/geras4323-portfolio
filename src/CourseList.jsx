@@ -10,6 +10,16 @@ function CourseList() {
 
         <section className="w-full h-auto space-y-4   md:grid md:grid-cols-2 md:space-y-0 md:gap-4   lg:grid lg:grid-cols-3 lg:space-y-0">
           <Course
+            name="Node.js - PostgreSQL"
+            image="https://static.platzi.com/media/achievements/backend-node-82a9a4bf-7ce4-4437-86f6-c39dcce17d15.png"
+          />
+
+          <Course
+            name="Node.js - API REST"
+            image="https://static.platzi.com/media/achievements/badge-backend-nodejs-apirest-expressjs-3fc7bca3-8dcb-459c-9638-12c92d502f5f.png"
+          />
+
+          <Course
             name="NEXT.js"
             image="https://static.platzi.com/media/achievements/piezas-profesional-nextjs_badge-c9a806c6-e240-45da-81da-c206b0611e84.png"
           />

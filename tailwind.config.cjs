@@ -16,6 +16,7 @@ module.exports = {
         'dashboard': "url('./assets/dashboard.jpg')",
         'movies': "url('./assets/movies.jpg')",
         'ghsearch': "url('./assets/gh_search.jpg')",
+        'apidocs': "url('./assets/apidocs.jpg')",
       },
       backgroundColor: theme => ({
         ...theme('colors'),

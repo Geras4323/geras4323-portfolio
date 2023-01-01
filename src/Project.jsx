@@ -9,11 +9,11 @@ function Project({
   backgr
 }) {
   return (
-    <div className="w-full h-64 shadow-lg rounded-xl p-4 flex flex-row bg-tertiary border border-border   md:h-128   lg:h-160   dark:bg-[#1f2a36] dark:border-gray-700">
+    <div className="group w-full h-64 shadow-lg rounded-xl p-4 flex flex-row bg-tertiary border border-border   md:h-128   lg:h-160   dark:bg-[#1f2a36] dark:border-gray-700">
       <section className="w-full h-full flex flex-row space-x-4 text-black   md:flex-col md:space-x-0 md:space-y-8">
 
         <a href={page} target="_blank" className={`w-1/2 h-full ${backgr} bg-cover bg-center border border-border rounded-xl shadow-md   hover:scale-105   transition-all duration-500 ease-in-out   md:w-full md:h-1/2 md:bg-top   dark:border-gray-700`}>
-          <div className="w-full h-full flex flex-col justify-evenly items-center p-4 rounded-xl text-transparent font-semibold bg-black bg-opacity-10   hover:bg-opacity-70 hover:text-white   transition-all duration-500 ease-in-out">
+          <div className="w-full h-full flex flex-col justify-evenly items-center p-4 rounded-xl text-transparent font-semibold bg-black bg-opacity-10   group-hover:bg-opacity-70 group-hover:text-white   transition-all duration-500 ease-in-out">
             <p className="text-center   md:text-lg">{description}</p>
             <p className="text-lg   md:text-xl">Visit</p>
           </div>
